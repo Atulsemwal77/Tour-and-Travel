@@ -1,0 +1,264 @@
+*{
+    margin:0 2px 2px 2px ;
+    padding: 0%;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+header{
+    width: 75%;
+    height: 100px;
+    display: flex; 
+    justify-content:center;
+    align-items: center;
+    margin: 30px 150px;
+    border-bottom:1px solid black ;
+    
+}
+.logo1 img{
+    height:70px;
+    width: 160px;
+}
+header li {    
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 70px;
+    
+}
+header li a{
+    color:black;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+}
+header ul{
+    margin-left: 100px;
+}
+
+
+/* ------------------------------------------------3rd page ----------------------------------- */
+.container9{
+    width: 94%;
+    height: auto;
+    margin: 50px 3% 20px 3%;
+    
+}
+.hotel-title{
+    margin-top: 50px;
+}
+.hotel-title h1{
+    font-weight: 500;
+    font-style: italic;
+}
+.hotel-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin:10px 0;
+}
+.hotel-title .row span{
+    margin: 0 20px
+}
+.hotel-title .row i{
+    color: #ff5361;
+    font-size: 15px;
+}
+.gallery{
+    display: grid;
+    grid-gap:10px;
+    grid-template-areas: 'first first . .' 'first first . .';
+    margin: 20px 0 ;
+}
+.gallery div img{
+    width:100%;
+    display:block;
+    border-radius: 10px;
+}
+.gallery .first{
+    grid-area:first;
+}
+.gallery-text h2{
+    font:500;
+    margin-bottom: 10px;
+}
+.gallery-text h4{
+    text-align: right; 
+    font-size: 20px;
+}
+p{
+    font-size: 18px;
+}
+.line3{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 70%;
+    margin:20px 0 50px;
+}
+.form{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0 ,0 ,0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+    justify-content: space-evenly;
+}
+.form label{
+    font-size: 20px;
+    display: block;
+}
+.form div{
+    padding: 20px;
+}
+.form input{
+    font-size: 17px;
+    background: transparent;
+    border: 0;
+    outline: none;    
+}
+.form button{
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: white;
+    padding:18px;
+    width:350px;
+    border-radius: 8px;
+    font-size:18px
+
+}
+.list{
+    list-style:none;
+    margin: 30px 40px;
+}
+.list li{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color:#555;
+    position: relative;
+
+}
+.list span{
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    
+}
+.list li i {
+    position: absolute;
+    top:5px;
+    left: -40px;
+}
+.hotel-dec{
+    max-width: 750px;
+    margin:0 0 50px 20px;
+}
+.host{
+    display: flex;
+    align-items: center;
+}
+.host img{
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    margin:0 30px;
+
+}
+.host h2{
+    margin-bottom:10px ;
+    font-weight: 500;
+}
+.host i {
+    color: #ff5361;
+}
+.contact-host{
+    font-size: 20px;
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    color:#555;
+    padding: 10px 40px;
+    border:1px solid #ff5361;
+    border-radius: 8px;
+}
+footer{
+    margin: 30px 3% auto 3%;
+    width:94%;
+    height:auto;
+    text-align: center;
+}
+footer h3{
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+footer h4{
+    font-size: 18px;
+    margin-top: 10px;
+}
+footer i{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 5px;
+    color:  #ff5361;
+}
+footer pre{
+    font-size: 18px;
+}
+#line{
+    width: 60%;
+    height: .5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    margin: 20px 20%;
+    
+}
+.underline{
+    position: relative;
+}
+.underline::after{
+    content: "";
+    background: #ff5361;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    left: 30%; top: 99%;
+    border-radius: 2px;
+}
+
+.last{
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last h2{
+    font-size: 75px;
+    font-style: italic;
+    color: red;
+}
+.back {
+    background: #ff5361;
+    padding: 20px;
+    width:80px;
+    height: 20px;
+    font-size:18px;
+    border-radius: 8px;
+    margin-right:20px ;
+}
+.back a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
